@@ -1,0 +1,105 @@
+.pro3 h1 {
+    padding-top: 300px;
+    font-size: 5rem;
+}
+
+.pro3 button {
+    font-size: 1rem;
+    margin-bottom: 200px;
+}
+
+
+
+.mola {
+    position: relative;
+    bottom: 60px;
+    left: 170px;
+}
+
+/* responsive mobile device */
+@media only screen and (max-width:768px) and (min-width:100px) {
+    .carousel-item img {
+        height: 700px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .carousel-item h1 {
+        font-size: 3rem;
+    }
+
+    .carousel-item p {
+        font-size: 1rem;
+    }
+
+    .mola {
+        left: 200px;
+    }
+
+    .imgs {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .pro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .colss {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .pro3 {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .plex {
+        flex-direction: column;
+    }
+
+    .plexx {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pro2 {
+        flex-direction: column;
+    }
+}
+
+/* responsive tab device */
+@media only screen and (max-width:991px) and (min-width:768px) {
+    .carousel-item img {
+        height: 700px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .carousel-item h1 {
+        font-size: 3rem;
+    }
+
+    .carousel-item p {
+        font-size: 1rem;
+    }
+
+    .mola {
+        left: 200px;
+    }
+
+    .imgs {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .colss {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+}
